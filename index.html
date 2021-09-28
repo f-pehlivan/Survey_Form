@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clarusway Survey Form</title>
+</head>
+
+<body>
+    <div>
+        <header>
+            <h1>Clarusway Survey Form</h1>
+        </header>
+        <p>Thank you for taking the time to help us improve the platform</p>
+        <section>
+            <form action="#">
+                <div>
+                    <label for="user_name">Name</label>
+                    <br>
+                    <input type="text" name="name" id="user_name" placeholder="Enter your Name">
+                    <br><br>
+                <div/>
+
+                <div>
+                    <label for="user_surname">Surname</label>
+                    <br>
+                    <input type="text" name="surname" id="user_surname" placeholder="Enter you Surname">
+                    <br><br>
+                <div/>
+
+                <div>
+                    <label for="user_email">Email</label>
+                    <br>
+                    <input type="email" name="email" id="user_email" placeholder="user@clarusway.com">
+                    <br><br>
+                <div/>
+
+                <div>
+                    <label for="current_role">Which option best describes your current role?</label>
+                    <br><br>
+                    <select name="current_role" id="current_role">
+                        <option disabled selected>Select Current Role</option>
+                        <option value="trainee">Trainee</option>
+                        <option value="full-time_employee">Full-time Employee</option>
+                        <option value="part-time employee">Part-time Employee</option>
+                        <option value="house_husband-wife">Househusband / -wife</option>
+                        <option value="others">Others</option>
+                    </select>
+                </div>
+                <br>
+
+                <div>
+                    <label for="recommendation">Would you recommend Clarusway to a friend?</label>
+                    <br><br>
+                    <input type="radio" name="recommendation" id="definitely" checked>
+                    <label for="definitely">Definitely, Yes</label>
+                    <br>
+                    <input type="radio" name="recommendation" id="maybe">
+                    <label for="maybe">Maybe</label>
+                    <br>
+                    <input type="radio" name="recommendation" id="not_sure">
+                    <label for="not_sure">Not sure</label>
+                    <br>
+                    <input type="radio" name="recommendation" id="no_definitely">
+                    <label for="no_definitely">Definitely, No</label>
+                    <br><br>
+                </div>
+
+                <div>
+                    <label for="fav_feature">What is your favorite feature of Clarusway?</label>
+                    <br><br>
+                    <select name="fav_feature" id="fav_feature">
+                        <option disabled selected>Select an option</option>
+                        <option value="instructors">Instructors</option>
+                        <option value="accessibility">Accessibility</option>
+                        <option value="method">Method</option>
+                        <option value="contents">Contents</option>
+                        <option value="community">Community</option>
+                        <option value="projects">Projects</option>
+                    </select>
+                    <br><br>
+                </div>
+
+                <div>
+                    <label for="improvement">What would you like to see improved?</label>
+                    <br><br>
+                    <input type="checkbox" name="improvement" id="front_end" value="Front-end_Projects">
+                    <label for="front_end">Front-end Projects</label>
+                    <br>
+                    <input type="checkbox" name="improvement" id="back_end" value="Back-end_Projects">
+                    <label for="back_end">Back-end Projects</label>
+                    <br>
+                    <input type="checkbox" name="improvement" id="data_science" value="Data_Science">
+                    <label for="data_science">Data Science</label>
+                    <br>
+                    <input type="checkbox" name="improvement" id="additional_courses" value="Additional_Courses">
+                    <label for="additional_courses">Additional Courses</label>
+                    <br><br>
+                </div>
+
+                <div>
+                    <label for="comment_box">Any comments or suggestions?</label>
+                    <br><br>
+                    <textarea name="comment" id="comment_box" cols="30" rows="8" placeholder="Enter your comment here... Thanks for your suggestions..."></textarea>
+                </div>
+
+                <input type="submit" value="Submit">
+            </form>
+        </section>
+    </div>
+</body>
+
+</html>
